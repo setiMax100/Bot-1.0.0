@@ -11,7 +11,7 @@ module.exports = {
                     break;
 
                 default:
-                    await sock.sendMessage(chatId, { text: 'Unknown command. Please use !yt, !tiktok, !ig, or !fb followed by the URL.' });
+                    await sock.sendMessage(chatId, { text: 'Unknown command.' });
                     break;
             }
         } catch (err) {
