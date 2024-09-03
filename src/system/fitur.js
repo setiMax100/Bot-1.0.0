@@ -1,7 +1,3 @@
-const ytdl = require('ytdl-core');
-const TikTokScraper = require('tiktok-scraper');
-const instagramGetUrl = require('instagram-url-direct');
-const fbDownloader = require('fb-video-downloader');
 
 module.exports = {
     handleCommand: async (command, args, message, sock) => {
