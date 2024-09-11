@@ -1,10 +1,10 @@
 const OpenAI = require('openai');
 const axios = require('axios');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
-const genAI = new GoogleGenerativeAI('');
+const genAI = new GoogleGenerativeAI('AIzaSyDOaeEgPdKWxeM6uVu5NWmMhCw1nrZOZ-g');
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 const openai = new OpenAI({
-    apiKey: '', // Ganti dengan API key OpenAI kamu
+    apiKey: 'sk-TP3xC3QnxydcKofdz5MAiosHMHFF-cZloO_pVKL9xDT3BlbkFJUv6Hci3Krmc8tc6L7KiDHK7pgUwElHKlyle7UXOnMA', // Ganti dengan API key OpenAI kamu
 });
 
 module.exports = {
